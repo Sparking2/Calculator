@@ -2,14 +2,57 @@
 <html>
 
 <head>
-    <meta charset="UTF-8">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
     <title>Calculator</title>
-    <link href="style.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
 </head>
 
 <body>
-    <h1>Spark's Calculator</h1>
-    <script src="code.js"></script>
+    <h1 class="text-center" style="margin-top: 30px;color: rgb(255,255,255);">Spark's Calculator</h1>
+    <div class="calculator-body" style="background-color: rgb(43,46,48);">
+        <div class="container" style="width: 100%;height: 100%;padding-right: 0px;padding-left: 0px;">
+            <div class="row row-cols-1" style="height: 30%;width: 100%;margin-right: 0;margin-left: 0;">
+                <div class="col d-xl-flex justify-content-xl-end align-items-xl-end display" style="font-size: 40px;">
+                    <p class="text-right" style="color: rgb(0,0,0);">0</p>
+                </div>
+            </div>
+            <div class="row no-gutters row-cols-4" style="height: 14%;">
+                <div class="col" style="width: 25%;"><button class="btn btn-primary calculator-button" type="button">CE</button></div>
+                <div class="col"><button class="btn btn-primary calculator-button" type="button">C</button></div>
+                <div class="col"><button class="btn btn-primary calculator-button" type="button">DEL</button></div>
+                <div class="col"><button class="btn btn-primary calculator-button" type="button">÷</button></div>
+            </div>
+            <div class="row no-gutters row-cols-4" style="height: 14%;">
+                <div class="col" style="width: 25%;"><button class="btn btn-primary calculator-button" type="button">7</button></div>
+                <div class="col"><button class="btn btn-primary calculator-button" type="button">8</button></div>
+                <div class="col"><button class="btn btn-primary calculator-button" type="button">9</button></div>
+                <div class="col"><button class="btn btn-primary calculator-button" type="button">x</button></div>
+            </div>
+            <div class="row no-gutters row-cols-4" style="height: 14%;">
+                <div class="col" style="width: 25%;"><button class="btn btn-primary calculator-button" type="button">4</button></div>
+                <div class="col"><button class="btn btn-primary calculator-button" type="button">5</button></div>
+                <div class="col"><button class="btn btn-primary calculator-button" type="button">6</button></div>
+                <div class="col"><button class="btn btn-primary calculator-button" type="button">-</button></div>
+            </div>
+            <div class="row no-gutters row-cols-4" style="height: 14%;">
+                <div class="col" style="width: 25%;"><button class="btn btn-primary calculator-button" type="button">1</button></div>
+                <div class="col"><button class="btn btn-primary calculator-button" type="button">2</button></div>
+                <div class="col"><button class="btn btn-primary calculator-button" type="button">3</button></div>
+                <div class="col"><button class="btn btn-primary calculator-button" type="button">+</button></div>
+            </div>
+            <div class="row no-gutters row-cols-4" style="height: 14%;">
+                <div class="col" style="width: 25%;"><button class="btn btn-primary calculator-button" type="button">+-</button></div>
+                <div class="col"><button class="btn btn-primary calculator-button" type="button">0</button></div>
+                <div class="col"><button class="btn btn-primary calculator-button" type="button">.</button></div>
+                <div class="col"><button class="btn btn-primary calculator-button" type="button">=</button></div>
+            </div>
+        </div>
+    </div>
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/js/code.js"></script>
 </body>
 
 </html>
