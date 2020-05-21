@@ -15,38 +15,38 @@
         <div class="container" style="width: 100%;height: 100%;padding-right: 0px;padding-left: 0px;">
             <div class="row row-cols-1" style="height: 30%;width: 100%;margin-right: 0;margin-left: 0;">
                 <div class="col d-xl-flex justify-content-xl-end align-items-xl-end display" style="font-size: 40px;">
-                    <p class="text-right" style="color: rgb(0,0,0);">0</p>
+                    <p id="text-display" class="text-right" style="color: rgb(0,0,0);">0</p>
                 </div>
             </div>
             <div class="row no-gutters row-cols-4" style="height: 14%;">
-                <div class="col" style="width: 25%;"><button class="btn btn-primary calculator-button" type="button">CE</button></div>
-                <div class="col"><button class="btn btn-primary calculator-button" type="button">C</button></div>
-                <div class="col"><button class="btn btn-primary calculator-button" type="button">DEL</button></div>
-                <div class="col"><button class="btn btn-primary calculator-button" type="button">÷</button></div>
+                <div class="col"><button onclick="btnClick('CE')" class="btn btn-primary calculator-button" type="button">CE</button></div>
+                <div class="col"><button onclick="btnClick('C')" class="btn btn-primary calculator-button" type="button">C</button></div>
+                <div class="col"><button onclick="btnClick('DEL')" class="btn btn-primary calculator-button" type="button">DEL</button></div>
+                <div class="col"><button onclick="btnClick('÷')" class="btn btn-primary calculator-button" type="button">÷</button></div>
             </div>
             <div class="row no-gutters row-cols-4" style="height: 14%;">
-                <div class="col" style="width: 25%;"><button class="btn btn-primary calculator-button" type="button">7</button></div>
-                <div class="col"><button class="btn btn-primary calculator-button" type="button">8</button></div>
-                <div class="col"><button class="btn btn-primary calculator-button" type="button">9</button></div>
-                <div class="col"><button class="btn btn-primary calculator-button" type="button">x</button></div>
+                <div class="col"><button onclick="btnClick('7')" class="btn btn-primary calculator-button" type="button">7</button></div>
+                <div class="col"><button onclick="btnClick('8')" class="btn btn-primary calculator-button" type="button">8</button></div>
+                <div class="col"><button onclick="btnClick('9')" class="btn btn-primary calculator-button" type="button">9</button></div>
+                <div class="col"><button onclick="btnClick('x')" class="btn btn-primary calculator-button" type="button">x</button></div>
             </div>
             <div class="row no-gutters row-cols-4" style="height: 14%;">
-                <div class="col" style="width: 25%;"><button class="btn btn-primary calculator-button" type="button">4</button></div>
-                <div class="col"><button class="btn btn-primary calculator-button" type="button">5</button></div>
-                <div class="col"><button class="btn btn-primary calculator-button" type="button">6</button></div>
-                <div class="col"><button class="btn btn-primary calculator-button" type="button">-</button></div>
+                <div class="col"><button onclick="btnClick('4')" class="btn btn-primary calculator-button" type="button">4</button></div>
+                <div class="col"><button onclick="btnClick('5')" class="btn btn-primary calculator-button" type="button">5</button></div>
+                <div class="col"><button onclick="btnClick('6')" class="btn btn-primary calculator-button" type="button">6</button></div>
+                <div class="col"><button onclick="btnClick('-')" class="btn btn-primary calculator-button" type="button">-</button></div>
             </div>
             <div class="row no-gutters row-cols-4" style="height: 14%;">
-                <div class="col" style="width: 25%;"><button class="btn btn-primary calculator-button" type="button">1</button></div>
-                <div class="col"><button class="btn btn-primary calculator-button" type="button">2</button></div>
-                <div class="col"><button class="btn btn-primary calculator-button" type="button">3</button></div>
-                <div class="col"><button class="btn btn-primary calculator-button" type="button">+</button></div>
+                <div class="col"><button onclick="btnClick('1')" class="btn btn-primary calculator-button" type="button">1</button></div>
+                <div class="col"><button onclick="btnClick('2')" class="btn btn-primary calculator-button" type="button">2</button></div>
+                <div class="col"><button onclick="btnClick('3')" class="btn btn-primary calculator-button" type="button">3</button></div>
+                <div class="col"><button onclick="btnClick('+')" class="btn btn-primary calculator-button" type="button">+</button></div>
             </div>
             <div class="row no-gutters row-cols-4" style="height: 14%;">
-                <div class="col" style="width: 25%;"><button class="btn btn-primary calculator-button" type="button">+-</button></div>
-                <div class="col"><button class="btn btn-primary calculator-button" type="button">0</button></div>
-                <div class="col"><button class="btn btn-primary calculator-button" type="button">.</button></div>
-                <div class="col"><button class="btn btn-primary calculator-button" type="button">=</button></div>
+                <div class="col"><button onclick="btnClick(' ')" class="btn btn-primary calculator-button" type="button">+-</button></div>
+                <div class="col"><button onclick="btnClick('0')" class="btn btn-primary calculator-button" type="button">0</button></div>
+                <div class="col"><button onclick="btnClick('.')" class="btn btn-primary calculator-button" type="button">.</button></div>
+                <div class="col"><button onclick="btnClick('=')" class="btn btn-primary calculator-button" type="button">=</button></div>
             </div>
         </div>
     </div>
